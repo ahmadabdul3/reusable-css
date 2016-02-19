@@ -1,0 +1,149 @@
+/*
+	colors {
+		dark-gray: #424242;
+	}
+
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	color: #424242;
+}
+h4, h5, h6 {
+  margin: 5px 0;
+}
+h1 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+h2 {
+  margin: 8px 0;
+  font-size: 26px;
+}
+h3 {
+  margin: 6px 0;
+  font-size: 24px;
+}
+h3 + h3 {
+	font-size: 18px;
+	color: #aaa;
+}
+h3 + h3.bordered {
+	border-bottom: 1px solid #aaa;
+}
+h4 {
+  font-size: 18px;
+  font-size: 20px;
+}
+h5 {
+ font-size: 16px;
+ font-size: 18px;
+}
+p {
+	margin: 30px 0;
+	line-height: 30px;
+}
+ul {
+	padding: 0;
+}
+.page-width {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.page-width-lg {
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.page-section {
+	padding: 50px 0;
+	text-align: center;
+}
+.page-section h1, .page-section h2, .page-section h3 {
+	text-align: left;
+}
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+.centered-box {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 -2px;
+}
+.vertical-mid-hack {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	margin: 0 -2px;
+}
+@media (min-width: 0) and (max-width: 1100px) {
+	.page-width {
+		width: 95%;
+	}
+}
+@media (min-width: 451px) and (max-width: 700px) {
+	body {
+		font-size: 16px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		margin: 20px 0;
+		line-height: 25px;
+	}
+}
+@media (min-width: 0) and (max-width: 450px) {
+	body {
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	h4 {
+		font-size: 15px;
+	}
+	h5 {
+		font-size: 14px;
+	}
+	p {
+		margin: 15px 0;
+		line-height: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
