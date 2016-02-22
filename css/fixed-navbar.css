@@ -23,9 +23,11 @@ nav.fixed-top ul li {
 	padding: 0 25px;
 	height: 100%;
 	color: #eee;
+	transition: background-color 0.2s ease, color 0.2s ease;
 }
 nav.fixed-top ul li:hover {
 	cursor: pointer;
 	background-color: black;
 	color: white;
+	transition: background-color 0.2s ease, color 0.2s ease;
 }
